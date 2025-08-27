@@ -49,3 +49,7 @@ https://github.com/achmadsu/detrust-vapp
 ## Others
 - Live Demo: https://detrust-vapp.vercel.app  
 - Demo Video: https://youtu.be/detrust-demo
+
+github_username: "achmadsu"
+discord_id: "1220381972988428333"
+timestamp: "2025-08-27"
