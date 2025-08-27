@@ -1,37 +1,51 @@
 # vApp Proposal
 
 ## Judul
-(Tuliskan nama atau judul vApp kamu)
+DeTrust — Desentralisasi Surat Wasiat & Warisan
 
 ## Deskripsi
-(Deskripsikan vApp kamu secara ringkas dan jelas)
+DeTrust adalah aplikasi terdesentralisasi (vApp) yang memungkinkan pengguna menyimpan dan mendistribusikan wasiat secara otomatis menggunakan smart contract di blockchain. Wasiat hanya bisa diakses setelah kondisi tertentu terpenuhi (seperti waktu atau verifikasi pihak ketiga).
 
 ## Masalah yang Diselesaikan
-(Jelaskan masalah nyata yang ingin kamu selesaikan dengan vApp ini)
+Banyak orang tidak menyiapkan wasiat atau menghadapi birokrasi hukum yang rumit. Wasiat digital yang aman, otomatis, dan tanpa campur tangan notaris dapat membantu masyarakat modern.
 
 ## Solusi
-(Bagaimana vApp kamu menyelesaikan masalah tersebut?)
+Dengan smart contract, pengguna dapat membuat, menyimpan, dan mengatur kondisi pewarisan. Saat kondisi terpenuhi (misalnya tidak ada aktivitas wallet selama X bulan), kontrak akan memproses eksekusi wasiat.
 
 ## Fitur Utama
-(Daftar fitur-fitur utama dari vApp kamu)
+- Pembuatan surat wasiat digital
+- Pemilihan pewaris
+- Eksekusi otomatis berbasis smart contract
+- Enkripsi isi wasiat (IPFS + zk)
 
 ## Target Pengguna
-(Siapa yang akan menggunakan vApp ini?)
+- Pengguna crypto jangka panjang
+- Orang tua yang memiliki aset digital
+- Komunitas DAO
 
 ## Tech Stack
-(Teknologi yang kamu gunakan, termasuk apakah menggunakan zk, L2, IPFS, dsb)
+- Solidity (smart contract)
+- IPFS (penyimpanan dokumen)
+- zk-SNARKs untuk privasi
+- Ethereum Sepolia (testnet)
+- Next.js + RainbowKit (frontend)
 
 ## Status Saat Ini
-(Apakah masih ide, prototipe, sudah ada versi awal, dll)
+Prototipe awal selesai (smart contract + UI)
 
 ## Roadmap
-(Tahapan pengembangan ke depan, misalnya: MVP → Beta → Launch)
+- September 2025: Uji coba internal
+- Oktober 2025: Peluncuran Beta
+- Desember 2025: Rilis resmi + audit
 
 ## Tim
-(Nama anggota tim & tanggung jawabnya)
+- @achmadsu: Smart contract & infra
+- @achmadsu: Frontend & desain UX
+- @alicechain: Komunitas & legal riset
 
 ## Repositori
-(Link ke GitHub repo proyek ini)
+https://github.com/achmadsu/detrust-vapp
 
 ## Lain-lain
-(Halaman demo, video, catatan tambahan, dsb)
+- Demo: https://detrust-vapp.vercel.app
+- Pitch Video: https://youtu.be/detrust-demo
