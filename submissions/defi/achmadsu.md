@@ -1,51 +1,51 @@
 # vApp Proposal
 
-## Judul
-DeTrust — Desentralisasi Surat Wasiat & Warisan
+## Title
+DeTrust — Decentralized Will & Digital Inheritance Manager
 
-## Deskripsi
-DeTrust adalah aplikasi terdesentralisasi (vApp) yang memungkinkan pengguna menyimpan dan mendistribusikan wasiat secara otomatis menggunakan smart contract di blockchain. Wasiat hanya bisa diakses setelah kondisi tertentu terpenuhi (seperti waktu atau verifikasi pihak ketiga).
+## Description
+DeTrust is a decentralized application (vApp) that allows users to securely store and automate the execution of digital wills using smart contracts. The will can be triggered under specific conditions such as wallet inactivity or third-party verification.
 
-## Masalah yang Diselesaikan
-Banyak orang tidak menyiapkan wasiat atau menghadapi birokrasi hukum yang rumit. Wasiat digital yang aman, otomatis, dan tanpa campur tangan notaris dapat membantu masyarakat modern.
+## Problem Statement
+Many people don't prepare wills, or face legal and bureaucratic barriers when managing inheritance. With increasing ownership of digital assets, there's a growing need for automated, transparent, and secure solutions for inheritance.
 
-## Solusi
-Dengan smart contract, pengguna dapat membuat, menyimpan, dan mengatur kondisi pewarisan. Saat kondisi terpenuhi (misalnya tidak ada aktivitas wallet selama X bulan), kontrak akan memproses eksekusi wasiat.
+## Solution
+We use smart contracts to allow users to set up a digital will and assign beneficiaries. When certain conditions are met (e.g., no activity on wallet for X months), the contract will automatically execute the will and distribute the assets.
 
-## Fitur Utama
-- Pembuatan surat wasiat digital
-- Pemilihan pewaris
-- Eksekusi otomatis berbasis smart contract
-- Enkripsi isi wasiat (IPFS + zk)
+## Key Features
+- Create a digital will securely
+- Select and manage beneficiaries
+- Automate execution based on wallet inactivity
+- Store encrypted will content using IPFS + zk
 
-## Target Pengguna
-- Pengguna crypto jangka panjang
-- Orang tua yang memiliki aset digital
-- Komunitas DAO
+## Target Users
+- Long-term crypto holders
+- Digital asset investors
+- DAO contributors and founders
 
 ## Tech Stack
-- Solidity (smart contract)
-- IPFS (penyimpanan dokumen)
-- zk-SNARKs untuk privasi
-- Ethereum Sepolia (testnet)
-- Next.js + RainbowKit (frontend)
+- Solidity (Smart Contracts)
+- IPFS (Document Storage)
+- zk-SNARKs (for private conditions)
+- Ethereum Sepolia (Testnet)
+- Next.js + RainbowKit (Frontend)
 
-## Status Saat Ini
-Prototipe awal selesai (smart contract + UI)
+## Current Status
+Working prototype (smart contract + basic UI done)
 
 ## Roadmap
-- September 2025: Uji coba internal
-- Oktober 2025: Peluncuran Beta
-- Desember 2025: Rilis resmi + audit
+- September 2025: Internal Testing
+- October 2025: Beta Launch with user feedback
+- December 2025: Public Release + Smart Contract Audit
 
-## Tim
-- @achmadsu: Smart contract & infra
-- @achmadsu: Frontend & desain UX
-- @alicechain: Komunitas & legal riset
+## Team
+- @achmadsu: Smart contract developer
+- @achmadsu: Frontend engineer & UI/UX
+- @alicechain: Community & legal research
 
-## Repositori
+## Repository
 https://github.com/achmadsu/detrust-vapp
 
-## Lain-lain
-- Demo: https://detrust-vapp.vercel.app
-- Pitch Video: https://youtu.be/detrust-demo
+## Others
+- Live Demo: https://detrust-vapp.vercel.app  
+- Demo Video: https://youtu.be/detrust-demo
